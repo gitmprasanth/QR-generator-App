@@ -35,8 +35,10 @@ function QrCode() {
   return (
     <div className='app-container' >
         <h1>QR CODE GENERATOR</h1>
+        <div style={{backgroundColor:"white"}}>
         {loading && <p>Please wait...</p>}
         {img && <img src ={img} alt="qr"  className='qr-code-image'/>}
+        </div>
     <div>
         <label htmlFor="dataInput" className='input-label' >
             Data for QR Code:
