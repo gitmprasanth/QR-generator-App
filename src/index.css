@@ -14,9 +14,12 @@
 .app-container h1{
   font-weight: 600;
   font-size: 18px;
-  color: #f2f1f1;
-  border-bottom: 1px solid #f1efef;
+  color: #070707;
   padding: 10px 0px;
+  background-color: rgb(7, 155, 155);
+  padding: 15px;
+  border-radius: 10px;
+  
 }
 
 .qr-code-image{
@@ -27,9 +30,13 @@
 .input-label{
   display: block;
   margin-bottom: 8px;
-  color:#fafafa;
+  color:#060606;
   font-size:15px;
   font-weight: 500;
+  background-color: rgb(7, 155, 155);
+  padding: 5px;
+  border-radius: 8px;
+  width: 150px;
 }
 input[type="text"]
 {
@@ -39,6 +46,8 @@ input[type="text"]
   font-size: 16px;
   border:2px solid #3498db;
   border-radius: 5px;
+  background-color: rgb(7, 155, 155);
+  color: #050505;
 }
 button{
   padding: 15px 20px ;
